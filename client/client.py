@@ -13,16 +13,3 @@ async def listen():
             print(msg)
 
 asyncio.get_event_loop().run_until_complete(listen())
-
-# Create virtual environment 
-#   - using python 3.7 and above
-
-# Install websockets
-#   - websockets requires Python ≥ 3.7
-#   - $ pip install websockets
-
-
-
-# To Check this program 
-# on browser - https://sync-chasing-ball.glitch.me/
-# running server url - "ws://simple-websocket-server-echo.glitch.me/
